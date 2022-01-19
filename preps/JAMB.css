@@ -1,0 +1,30 @@
+    * {
+        margin: 2px;
+    }
+    
+    body {
+        display: flex;
+        flex-flow: column;
+        vertical-align: middle;
+        align-items: center;
+        background-image: url(4.jpg);
+        animation: ope 8s infinite;
+    }
+    
+    @keyframes ope {
+        from {
+            background-image: url(4.jpg);
+        }
+        to {
+            background-image: url(3.jpg);
+        }
+    }
+    
+    .form {
+        display: block;
+        box-shadow: rgba(0px, 4px, 8px, 0px), rgba(0px, 0px, 0px, 0.2px), rgba(0px, 6px, 20px, 0px) rgba(0px, 0px, 0px, 0.2px);
+        height: 300px;
+        background-color: white;
+        border: 1.5px solid black;
+        padding: 20px;
+    }

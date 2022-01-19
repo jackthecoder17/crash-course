@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rosybrown;
+    animation-name: Change;
+    animation-duration: 30s;
+}
+
+@keyframes Change {
+    from {
+        background-color: rosybrown;
+    }
+    to {
+        background-color: skyblue;
+    }
+}
+
+.form {
+    margin-top: 170px;
+    visibility: hidden;
+    background-color: white;
+    border: 1.5px solid black;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    padding: 20px;
+    height: 270px;
+    box-shadow: rgba(0px, 4px, 8px, 0px), rgba(0px, 0px, 0px, 0.2px), rgba(0px, 6px, 20px, 0px) rgba(0px, 0px, 0px, 0.2px);
+}
+
+.login {
+    display: block;
+    background-color: peachpuff;
+    padding: 25px 30px;
+    border: 1.7px solid brown;
+    border-radius: 10px;
+    margin: auto;
+    text-transform: uppercase;
+    font-size: medium;
+    cursor: pointer;
+    visibility: visible;
+}
+
+.login:hover,
+.login:focus,
+.login.active {
+    background-color: peachpuff;
+    border-color: brown;
+    color: brown;
+    outline: none;
+}
+
+.active {
+    background-color: peachpuff;
+    color: brown;
+    border: brown;
+    transform: translateY(140%);
+    padding: 15px 20px;
+    margin-top: -80px;
+    font-size: medium;
+}
+
+.active:hover {
+    background-color: peachpuff;
+    color: brown;
+    border-color: brown;
+}
+
+.add {
+    animation: ope 0.5s forwards;
+    visibility: visible;
+}
+
+@keyframes ope {
+    0% {
+        transform: scale(0.8);
+        visibility: visible;
+        opacity: 0;
+    }
+    ;
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    ;
+}
+
+input[type=text],
+input[type=password] {
+    max-width: 80%;
+    font-size: small;
+    height: 25px;
+    border: 0px;
+    border-width: 0px;
+    text-overflow: ellipsis;
+    text-align: center;
+}

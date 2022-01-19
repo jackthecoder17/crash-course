@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+}
+
+.container {
+    border: 6px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.flex-item {
+    color: white;
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.item-1 {
+    background-color: yellow;
+}
+
+.item-2 {
+    background-color: red;
+}
+
+.item-3 {
+    background-color: royalblue;
+}
+
+.item-4 {
+    background-color: seagreen;
+}
+
+.item-5 {
+    background-color: slateblue;
+}
+
+.item-6 {
+    background-color: coral;
+}
+
+.item-7 {
+    background-color: darkblue;
+}
+
+.item-8 {
+    background-color: black;
+}
+
+.item-9 {
+    background-color: darkorchid;
+}

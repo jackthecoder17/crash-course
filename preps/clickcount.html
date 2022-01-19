@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script>
+        function clickcounter() {
+            if (typeof(storage) !== "undefined") {
+                if (localstorage.clickcount) {
+                    localStorage.clickcount = Number(localStorage.clickcount) + 1;
+                } else {
+                    localStorage.clickcount = 1;
+                }
+                document.getElementById("result").innerHTML = "You have clicked the button" + localStorage.clickcount + "time(s).";
+            } else {
+                document.getElementById("result").innerHTML = "Sorry your browser does not support web storage...."
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <p><button onclick="clickcounter()" type="button">click me!</button></p>
+    <div id="result"></div>
+    <p> click the button to see the counter increase</p>
+    <p> Close thr browser and check again the counter will continue to tag</p>
+
+
+</body>
+
+
+</html>

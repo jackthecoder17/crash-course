@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input[type=text],
+        select {
+            width: 100%;
+            padding: 16px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        
+        input[type=submit] {
+            width: 100%;
+            padding: 18px 20px;
+            background-color: #4CAF50;
+            border: none;
+            cursor: pointer;
+            color: white;
+            border-radius: 4px;
+        }
+        
+        input[type=submit]:hover {
+            background-color: #45a849;
+        }
+        
+        div {
+            box-sizing: border-box;
+            background-color: #f2f2f2;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body style="background-color: skyblue;">
+    <h1> Using Css To Style Form </h1>
+
+    <div>
+        <form>
+            <label for="fname"> First Name</label> <br>
+            <input type="text" class="fname" id="fname" placeholder="Your Name..."> <br><br>
+
+            <label for="lname">Last Name</label><br>
+            <input type="text" class="lname" id="lname" placeholder="Your Last Name..."> <br><br>
+
+            <label for="country">Country</label><br>
+            <select name="country" id="country">
+                <option value="Australia">Australia</option>
+                <option value="USA">USA</option>
+                <option value="Canada">Canada</option>
+            </select><br><br>
+
+            <input type="submit" value="Submit">
+
+        </form>
+    </div>
+
+
+
+
+</body>
+
+</html>

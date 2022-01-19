@@ -1,0 +1,45 @@
+ * {
+     box-sizing: border-box;
+ }
+ 
+ body {
+     background-color: darkgray;
+ }
+ 
+ .Buks {
+     width: 80%;
+     margin: 100px auto;
+     height: 200px;
+ }
+ 
+ .mydiv1 {
+     background-color: goldenrod;
+     padding: 40px;
+     float: left;
+     width: 33%;
+     margin: auto;
+     box-shadow: 0 0 6 6;
+ }
+ 
+ .mydiv2 {
+     background-color: rgba(10, 86, 105, 0.795);
+     padding: 40px;
+     float: left;
+     width: 34%;
+     margin: auto;
+ }
+ 
+ .mydiv3 {
+     background-color: darkslategray;
+     padding: 40px;
+     float: left;
+     width: 33%;
+     margin: auto;
+ }
+ 
+ .button {
+     border: honeydew;
+     padding: 10px 20px;
+     border-radius: 20px;
+     cursor: pointer;
+ }

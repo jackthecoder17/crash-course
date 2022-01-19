@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grad {
+            height: 200px;
+            background-image: linear-gradient(red, yellow);
+            animation-name: Dance;
+            animation-duration: 30s;
+            animation-timing-function: ease-in-out;
+        }
+        
+        @keyframes Dance {
+            20% {
+                background-image: linear-gradient(red, yellow);
+            }
+            40% {
+                background-image: linear-gradient(white, grey);
+            }
+            60% {
+                background-image: linear-gradient(blue, turquoise);
+            }
+            80% {
+                background-image: linear-gradient(green, cyan);
+            }
+            100% {
+                background-image: linear-gradient(cyan, red);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grad">
+        <div class="gtext">
+            <h1> My story begins</h1>
+            <p> Life is so fun, <br>YOU just have to find what makes you happy, <br> Although we have stormy days but we put a bright face to conquer it</p>
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>

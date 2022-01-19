@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .dropbtn {
+            background-color: green;
+            color: white;
+            border: none;
+            padding: 16px;
+            cursor: pointer;
+        }
+        
+        .dropdown {
+            position: relative;
+            z-index: 1;
+        }
+        
+        .dropdown-contents {
+            display: none;
+            position: absolute;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            background-color: #f5f5f5;
+            z-index: 1;
+            text-decoration: none;
+        }
+        
+        .dropdown-contents a {
+            color: black;
+            display: block;
+            padding: 12px 16px;
+        }
+        
+        .dropdown-contents a:hover {
+            background-color: #f1f1f1;
+        }
+        
+        .dropdown:hover .dropdown-contents {
+            display: block;
+        }
+        
+        .dropdown:hover .dropbtn {
+            background-color: green;
+        }
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>Dropdown Menu</h2>
+    <p> Move the mouse over the button to open the dropdown menu</p>
+    <div class="dropdown"><button class="dropbtn">Tap Me Asshole</button>
+        <div class="dropdown-contents">
+            <a href="#">Home</a>
+            <a href="#">Contact</a>
+            <a href="#">About</a>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

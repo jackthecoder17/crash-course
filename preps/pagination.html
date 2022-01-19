@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .pagnication {
+            display: inline-block;
+        }
+        
+        .pagnication a {
+            color: black;
+            padding: 8px 16px;
+            float: left;
+            text-decoration: none;
+            border: 1px solid #ddd;
+        }
+        
+        .pagnication a.active {
+            background-color: green;
+            color: white;
+            border: 1px green;
+        }
+        
+        .pagnication a:hover:not(.active) {
+            background-color: #ddd;
+        }
+        
+        .pagnication a:first-child {
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+        }
+        
+        .pagnication a:last-child {
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1> Pagination with Rounded Borders</h1>
+    <div class="pagnication">
+        <a href="#">&laquo;</a>
+        <a href="#">1</a>
+        <a href="#" class="active">2</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <a href="#">5</a>
+        <a href="#">6</a>
+        <a href="#">&raquo;</a>
+
+
+    </div>
+
+</body>
+
+</html>

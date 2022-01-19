@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: cyan;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    color: white;
+    font-size: 60px;
+}
+
+#Name {
+    width: 250px;
+    height: 27px;
+}
+
+#Phone {
+    width: 250px;
+    height: 27px;
+}
+
+#Age {
+    width: 250px;
+    height: 27px;
+}
+
+#State {
+    width: 250px;
+    height: 27px;
+}
+
+#tarea {
+    width: 250px;
+}
+
+.Submit {
+    width: 250px;
+    height: 27px;
+    color: white;
+    background-color: rgb(1, 1, 143);
+}
